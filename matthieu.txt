@@ -1,0 +1,5 @@
+AsyncStorage.setItem("token", tontoken);
+
+async ComponentDidMount() {
+    const token = await AsyncStorage.getItem("token"):
+}
